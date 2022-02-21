@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+  <title>Police Department</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="pics\favicon.png" sizes="32x32">
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+<body>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#" class="navbar-left"><img src="pics\Знак полиции.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a href="en_index.html" class="nav-link">Police Department</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_contacts.html" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+         <div class="searchinternet" style="margin-right: 50px">
+         <input id="search" type="text" name="search"  class="search" placeholder="Search here!">
+    
+      <input type="submit" name="submit" class="btn btn-dark" value="Search" onclick="search()">
+       <script> 
+                function search(){
+               const str=document.getElementById("search").value;
+              const withoutSpaces = str.replaceAll(' ','+');
+             window.open("https://www.google.kz/search?q="+withoutSpaces,"_top");
+          }
+       </script>
+          </div>
+    </nav>
+</div>
+
+    <div class = "main">
+    <div class = "Description">
+        
+        <img src = "pics\news2.jpg" class = "post-image">
+        <h2>
+            <p align = "center" >
+                <u>Aktau police officers assisted a woman in labor</u>
+            </p>
+        </h2>
+        <br>
+        <h4 style="padding: 25px">
+            
+            The police assisted a woman in labor in Aktau, reports <a href = "https://polisia.kz/ru/rezhim-chp-kakie-prava-est-u-politsii-i-grazhdan/">Polisia.kz.</a> 
+
+            <p>On January 16, at about 4:00 a.m., a girl was born in one of the apartments of the 14th microdistrict before the ambulance arrived. I needed help to lower the woman in labor from the 3rd floor on a stretcher. Thus, a relative called for help turned to the guards for help, who stopped his car for violating the curfew rules. The crew of the patrol police battalion of Aktau “Mirage-4” immediately left for the address indicated by the man.</p>
+            <p>Senior police lieutenants Samat Amir and Zhenis Ospanov helped lower the woman on a stretcher and deliver her to an ambulance.</p>
+            <p>The next day, the woman's relatives expressed their gratitude to the police through social networks.</p>
+            <blockquote><p>- At the moment, everything is fine with mom and baby. Despite the curfew, the guards allowed us to escort the ambulance to the hospital. On behalf of our family, we express our gratitude to the police officers who entered our situation and met us halfway–" the family of Edilkhan addressed.</p></blockquote>
+            <iframe loading="lazy" title="Ақтаулық полицейлер коменданттық сағат кезінде жаңа босанған әйелге көмектесті" src="https://www.youtube.com/embed/XKp0c-9FLxs?wmode=transparent&amp;rel=0&amp;feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0" frameborder="0" style = "width: 100%; height: 500px"></iframe>
+            <blockquote><p>- The main thing for us is to help citizens as needed and not to leave them in any difficult situations– - said the chief police officer of the region Zhanarbek Baktybayev.</p></blockquote>
+
+        </h4>
+    </div>
+ </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: #1B8298">
+            © 2022 Copyright:
+            Made by Zhanybek Bozbayev
+        </div>
+    </footer>
+      <div id="preloader_malc">
+
+    <div>
+
+        Подождите, идет загрузка сайта ...
+
+    </div>
+
+</div>
+
+<style type="text/css">
+    #preloader_malc {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 99
+    }
+
+    #preloader_malc div {
+        background: #fff;
+        width: 260px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        font-family: arial;
+        font-size: 15px;
+        color: #111;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto
+    }
+</style>
+    <script type="text/javascript" src="preloader.js"></script>
+</body>
