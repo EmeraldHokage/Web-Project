@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Police Department</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="pics\favicon.png" sizes="32x32">
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="style.css" type="text/css">
+   <link rel="stylesheet" type="text/css"  href="lightbox.min.css">
+ <script type="text/javascript" src="lightbox-plus-jquery.min.js">
+
+ </script>
+ </head>
+ <body>
+
+  <audio id="audio" src="sound/kazakhstan_2006.mp3"></audio>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#" class="navbar-left"><img src="pics\Знак полиции.png" class="logo" onclick="gimn()"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Police Department</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_contacts.html" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+         <div class="searchinternet" style="margin-right: 50px">
+         <input id="search" type="text" name="search"  class="search" placeholder="Search here!">
+    
+      <input type="submit" name="submit" class="btn btn-dark" value="Search" onclick="search()">
+       <script> 
+                function search(){
+               const str=document.getElementById("search").value;
+              const withoutSpaces = str.replaceAll(' ','+');
+             window.open("https://www.google.kz/search?q="+withoutSpaces,"_top");
+          }
+       </script>
+          </div>
+    </nav>
+</div>
+ 		
+        <div class = "main">
+ 		<img src = "pics\Знак полиции.png" align = "right" height="300px">
+ 		<h2>
+ 			<p align = "center" >
+ 				<u>Contacts</u>
+ 			</p>
+    </h2>
+ 		<br>
+   
+   <!-- <div class="contacts-container">
+
+      <button class="accordion">Contacts</button>
+        <div class="panel">
+          <p class="panel_inner">
+            <li>
+              <div>Hello</div>
+          </li>
+          <li>
+              <div>World</div>
+          </li>
+        </p>
+        </div>
+
+        <div class = "contacts" >
+ 			
+ 				The Digital Police Department is a digital division of the Ministry of Defense of the Republic of Kazakhstan. This project was created and approved in January 2022. The main objectives of this department are:
+    <ul>
+    <li>Creation of a digital soil for the Ministry of Defense of the Republic of Kazakhstan;</li>
+    <li>Creating a bridge between the Ministry of Defense of the Republic of Kazakhstan and ordinary citizens of the country;</li>
+    <li>Prevention of cybercrime and search for potential threats through the digital space;</li>
+    <li>Simplification of the current police missions;</li>
+</ul>
+</h3>
+ 	</div>
+    <br>
+    <br>
+</div>
+-->
+<div class="contacts">
+  
+  <details class="chiefs">
+    <summary>Police Chiefs</summary>
+    <p class = "head">
+      <a href="pics\contact1.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact1.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of Nur-Sultan's DP <b>Yerzhan Saparbekovich Sadenov</b>
+        </h5></p> 
+    <p class = "head">
+      <a href="pics\contact2.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact2.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of DP Almaty <b>Timerdenov Kanat Daniyarovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact3.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact3.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP Shymkent <b>Zhumakhanbetov Yeraly Musaalievich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact4.jpeg" data-lightbox="mygallery"> 
+        <img src="pics\contact4.jpeg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of DP Almaty region <b>Arystangani Zapparov</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact5.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact5.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the Aktobe region <b>Arystanov Atygai Gazymbekovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact6.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact6.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of Akmola region <b>Baymurzin Armanbek Hakimbekovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact7.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact7.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP Atyrau region <b>Umbetkaliev Kamza Baktygalievich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact8.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact8.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the East Kazakhstan region <b>Madiev Sagat Kentaevich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact9.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact9.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the West Kazakhstan region <b>Ablazimov Mahsudkhan Nugmanovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact10.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact10.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the Karaganda region <b>Fayzullin Yerlan Zhumaseitovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact11.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact11.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of Kostanay region <b>Aimagambetov Beket Imanovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact12.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact12.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the Kyzylorda region <b>Sultan Bektore Zhenisbaevich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact13.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact13.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the Mangystau region <b>Baktybaev Zhanarbek Telyubekovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact14.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact14.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of Pavlodar region <b>Masimov Nurlan Myrzakhanovich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact15.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact15.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of the North Kazakhstan region <b>Tulebaev Marat Sagintayevich</b></h5></p> 
+    <p class = "head">
+      <a href="pics\contact16.jpg" data-lightbox="mygallery"> 
+        <img src="pics\contact16.jpg" class = "card-img-top card" style = "align: right; height: 70px; width: 70px; border: 1px solid black;"></a><h5>- Head of the DP of Turkestan region <b>Dalbekov Kairat Sultanbayevich</b></h5></p> 
+  </details>
+  
+    <details class="important_numbers">
+      <summary>Important</summary>
+      <p class = "important_call"><h5>-Unified helpline of the Ministry of Internal Affairs (Anti-corruption):<b> 1402</b></h5></p>
+      <p class = "important_call"><h5>-Receiving messages about drug crimes (WhatsApp): <b>+7-777-785-66-51</b></h5></p>
+  </details>
+
+
+ <details class="hotline">
+    <summary>Hotline</summary>
+      <p class = "hotline_calls"><h5>Nur-Sultan Police Department: <b>8 (7172) 71-61-10</b></h5></p>
+      <p class = "hotline_calls"><h5>Almaty Police Department: <b>8 (727) 254-40-07</b></h5></p>
+      <p class = "hotline_calls"><h5>Shymkent Police Department: <b>8 (7252) 21-17-44</b></h5></p>
+      <p class = "hotline_calls"><h5>Almaty Region Police Department: <b>8 (7282) 60-80-01</b></h5></p>
+      <p class = "hotline_calls"><h5>Akmola Region Police Department: <b>8 (7162) 29-90-24</b></h5></p>
+      <p class = "hotline_calls"><h5>Aktobe Region Police Department: <b>8 (7132) 52-02-09</b></h5></p>
+      <p class = "hotline_calls"><h5>Atyrau Region Police Department: <b>8 (7122) 98-20-10, 98-21-50</b></h5></p>
+      <p class = "hotline_calls"><h5>East Kazakhstan Region Police Department: <b>8 (7232) 23-46-93</b></h5></p>
+      <p class = "hotline_calls"><h5>Zhambyl Region Police Department: <b>8 (7262) 99-70-31, 99-70-34</b></h5></p>
+      <p class = "hotline_calls"><h5>West Kazakhstan Region Police Department: <b>8 (7112) 98-45-33</b></h5></p>
+      <p class = "hotline_calls"><h5>Karaganda Region Police Department: <b>8 (7212) 42-90-90</b></h5></p>
+      <p class = "hotline_calls"><h5>Kostanay Region Police Department: <b>8 (7142) 52-63-84</b></h5></p>
+      <p class = "hotline_calls"><h5>Kyzylorda Region Police Department: <b>8 (7242) 26-41-60</b></h5></p>
+      <p class = "hotline_calls"><h5>Mangystau Region Police Department: <b>8 (7292) 42-15-71</b></h5></p>
+      <p class = "hotline_calls"><h5>Pavlodar Region Police Department: <b>8 (7182) 39-12-79</b></h5></p>
+      <p class = "hotline_calls"><h5>North Kazakhstan Region Police Department: <b>8 (7152) 39-40-20</b></h5></p>
+      <p class = "hotline_calls"><h5>Turkestan Region Police Department: <b>8 (7253) 35-85-80</b></h5></p>
+      <p class = "hotline_calls"><h5>Aktobe Region Police Department: <b>8 (7132) 52-02-09</b></h5></p>
+    </details>
+  </div>
+
+<footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: #1B8298">
+            © 2022 Copyright:
+            Made by Zhanybek Bozbayev
+        </div>
+    </footer>
+    <script type="text/javascript" src="script/js1.js"></script>
+  </body>
+</html>
+</div>
+  <div id="preloader_malc">
+
+    <div>
+
+        Подождите, идет загрузка сайта ...
+
+    </div>
+
+</div>
+
+<style type="text/css">
+    #preloader_malc {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 99
+    }
+
+    #preloader_malc div {
+        background: #fff;
+        width: 260px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        font-family: arial;
+        font-size: 15px;
+        color: #111;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto
+    }
+</style>
+<script type="text/javascript" src="preloader.js"></script>
+<script type="text/javascript" src="en_index.js"></script>
+</body>

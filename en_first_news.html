@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+  <title>Police Department</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="pics\favicon.png" sizes="32x32">
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+<body>
+    <audio id="audio" src="sound/kazakhstan_2006.mp3"></audio>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#" class="navbar-left"><img src="pics\Знак полиции.png" class="logo" onclick="gimn()"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Police Department</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="en_contacts.html" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+         <div class="searchinternet" style="margin-right: 50px">
+         <input id="search" type="text" name="search"  class="search" placeholder="Search here!">
+    
+      <input type="submit" name="submit" class="btn btn-dark" value="Search" onclick="search()">
+       <script> 
+                function search(){
+               const str=document.getElementById("search").value;
+              const withoutSpaces = str.replaceAll(' ','+');
+             window.open("https://www.google.kz/search?q="+withoutSpaces,"_top");
+          }
+       </script>
+          </div>
+    </nav>
+</div>
+
+    <div class = "main">
+ 	<div class = "Description">
+ 		
+ 		<img src = "pics\news1.jpeg" class = "post-image">
+ 		<h2>
+ 			<p align = "center" >
+ 				<u>State of emergency: what rights do the police and citizens have</u>
+ 			</p>
+ 		</h2>
+ 		<br>
+ 		<h4 style="padding: 25px">
+ 			
+ 			Who has the right to stop citizens on the street and inspect them during the state of emergency? Can a police officer require a citizen's phone number for inspection? I have dealt with these issues <a href = "zakon.kz">Zakon.kz</a>, transmits <a href = "https://polisia.kz/ru/rezhim-chp-kakie-prava-est-u-politsii-i-grazhdan/">Polisia.kz</a>
+
+            <p>As follows from the response of the Administrative Police Committee of the Ministry of Internal Affairs of the Republic of Kazakhstan, according to the law “<a href = "https://online.zakon.kz/Document/?doc_id=1036912">On the State of Emergency</a>”, persons who violate the curfew rules are detained by police or military patrols until the curfew ends, and those who do not have documents with them – until their identity is established, but not for more than 48 hours. Detained persons and their belongings and vehicles may be searched.</p>
+          <p>In general, when a state of emergency is imposed, such measures and temporary restrictions are provided for, as verification of identity documents, personal search, inspection of things and vehicles that are with detained persons.</p>
+            <p>As explained by the lawyer of the Almaty Regional Bar Association, Alexander Lisichenko, both police officers, military personnel, and National Guard officers can stop people, check their documents, and perform an inspection during a state of emergency.</p>
+            <blockquote><p> - This is provided for by the relevant laws regulating the activities of all structures. During a state of emergency, all these persons have the right to inspect citizens stopped on the street. As practice shows, the patrols that we have engaged in the protection of public order during an emergency consist of representatives of the internal affairs bodies, either military personnel or the National Guard," said lawyer Alexander Lisichenko. </p></blockquote>
+            <p>According to the lawyer, the inspection of citizens is carried out on the basis if the employee conducting the inspection sees in the person any signs of committing an offense, or signs of violation of the state of emergency, curfew, etc. It is illegal to stop and inspect everyone without any reasonable suspicion.</p>
+            <p>The Ministry of Internal Affairs explained that during the state of emergency, the commandant of the locality, by his orders and orders, imposes restrictions on residents so that they do not leave their place of permanent residence for a fixed period. Violators of this requirement who are not residents of the area are expelled from its borders at their expense. Violation of rules and prohibitions entails administrative or criminal liability. Therefore, persons who violate the established regime can be detained and brought to the police authorities in accordance with the law.</p>
+            <blockquote><p>- Additional reasons for detaining a person during a state of emergency may be violation of the curfew, violation of regulations and restrictions imposed in connection with the state of emergency. For example, if a person visually detects some signs of committing a crime: the presence of firearms or cold weapons, or traces of blood or some damage are visible on his clothes, and so on, then in such cases it is possible to stop, detain. Both representatives of the police and the internal troops, the National Guard and the National Security Committee can detain such citizens and deliver them to law enforcement agencies," Alexander Lisichenko said.</p></blockquote>
+            <p>It is possible to deliver a person to the internal affairs bodies only when there are grounds to believe that he has committed any offense – administrative or criminal.</p>
+            <p>As they say in the Ministry of Internal Affairs, according to the law, the private life of citizens, personal and family secrets are protected by law. Everyone has the right to secrecy of personal deposits and savings, correspondence, telephone conversations, postal, telegraphic and other messages.</p>
+            <p>A search and seizure may be carried out during a pre-trial investigation by a reasoned decision with the sanction of the investigating judge.</p>
+            But in exceptional cases, when there is a real fear that the object to be seized may be used for criminal and other illegal purposes, the seizure may be carried out without the sanction of the investigating judge, by order of the person conducting the pre-trial investigation, but subsequently these materials must be sent to the investigating judge within a day. If this was done illegally, then the results of the seizure cannot be admitted as evidence in the case.</p>
+            <blockquote><p>– This issue is somewhat complicated from a legal point of view. The inspection of the mobile phone and its contents should be carried out only with the approval of the investigative court or with the consent of the person. The employee who performs the inspection does not have the right to demand, he has the right to ask. If the citizen refuses, the employee makes a decision. And he can't take the phone and forcibly inspect it, otherwise it's already a seizure. And the seizure of a mobile phone should be made only with the sanction of the investigative court, - says Alexander Lisichenko.</p></blockquote>
+            <p>There are legal issues that you need to pay attention to. The issue of the seizure of a mobile phone lies in the plane of a pre-trial investigation in a specific criminal case. But in the state of emergency, no specific criminal case is being investigated against the person who is being searched. That is, the actions are carried out, rather, by administrative legislation.</p>
+            <blockquote><p> - Therefore, under the conditions of the state of emergency, an employee to whom a person refused to provide a mobile phone for inspection has the right, if there are other reasons: for example, if there are some other seized items in the car, documents proving that this is an offender, without removing this mobile phone, to deliver a person to the internal affairs bodies for further verification and resolving the issue of withdrawing his mobile phone in accordance with the procedure established by law, - Alexander Lisichenko added.</p></blockquote>
+            <p>If a person believes that the actions of a police officer are unlawful, he has the right not to show him his mobile phone. But if the actions of an employee are clearly legitimate and a citizen resists the actions of employees, then there will already be signs of an offense in his actions – resisting an employee of the authorities.</p>
+
+        </h4>
+ 	</div>
+ </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: #1B8298">
+            © 2022 Copyright:
+            Made by Zhanybek Bozbayev
+        </div>
+    </footer>
+      <div id="preloader_malc">
+
+    <div>
+
+        Подождите, идет загрузка сайта ...
+
+    </div>
+
+</div>
+
+<style type="text/css">
+    #preloader_malc {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 99
+    }
+
+    #preloader_malc div {
+        background: #fff;
+        width: 260px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        font-family: arial;
+        font-size: 15px;
+        color: #111;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto
+    }
+</style>
+    <script type="text/javascript" src="preloader.js"></script>
+    <script type="text/javascript" src="en_index.js"></script>
+</body>
